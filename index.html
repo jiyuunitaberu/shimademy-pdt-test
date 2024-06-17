@@ -31,18 +31,18 @@
 
     // Create an analytics tracker with the required information:
     // pdt('create', Account Engagement account ID + 1000, Account Engagement campaign ID + 1000, 'go.example.com');
-    pdt('create', 962462, 113840, piDomain);
-    pdt('set', 'title', 'こんちくは！');
-    pdt('set', 'piEmail', 'cjy98723+hukusute@gmail.com');
-    pdt('sendPageView');
-    pdt(function (tracker) {
-      let status = tracker.getConsentStatus();
-      let title = tracker.get("title");
-      let url = tracker.get("url");
-      let referrer = tracker.get("referrer");
-      let piEmail = tracker.get("piEmail");
-      let utmCampaign = tracker.get("utmCampaign");
-      console.log(status, title, url, referrer, piEmail, utmCampaign);
+//    pdt('create', 962462, 113840, piDomain);
+//    pdt('set', 'title', 'こんちくは！');
+//    pdt('set', 'piEmail', 'cjy98723+hukusute@gmail.com');
+//    pdt('sendPageView');
+//    pdt(function (tracker) {
+//      let status = tracker.getConsentStatus();
+//      let title = tracker.get("title");
+//      let url = tracker.get("url");
+//      let referrer = tracker.get("referrer");
+//      let piEmail = tracker.get("piEmail");
+//      let utmCampaign = tracker.get("utmCampaign");
+//      console.log(status, title, url, referrer, piEmail, utmCampaign);
     });
 </script>
  <button type="button" id="show_banner_button" onClick="pdt('showConsentBanner')">
