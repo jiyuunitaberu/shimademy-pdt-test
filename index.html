@@ -7,7 +7,7 @@
         <meta name="description" content="Pardot Website 検証用"/>
         <title>Pardot Website 検証</title>
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
@@ -28,7 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
        <input type="submit" name="送信">
 </form>
 
- <button type="button" id="show_banner_button" onClick="pdt('showConsentBanner')">
+<!-- <button type="button" id="show_banner_button" onClick="pdt('showConsentBanner')">
         Cookie Consent Settings
  </button>
       <button type="button" id="cookie_clear_button" onClick="pdt('clearTrackingCookies')">
@@ -40,9 +40,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <button onclick="window.location.href='https://go.lulupdt.xyz/l/961462/2025-07-09/7hhdn?x470351357=tt0709'">フォームに遷移</button>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK5WWFXV"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!--<!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PK5WWFXV"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!--z
 <!-- End Google Tag Manager (noscript) -->
-	
+<script type='text/javascript'>
+piAId = '962462';
+piCId = '';
+piHostname = 'go.lulupdt.xyz';
+
+(function() {
+	function async_load(){
+		var s = document.createElement('script'); s.type = 'text/javascript';
+		s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + piHostname + '/pd.js';
+		var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+	}
+	if(window.attachEvent) { window.attachEvent('onload', async_load); }
+	else { window.addEventListener('load', async_load, false); }
+})();
+</script>	
     </body>
 </html>
